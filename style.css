@@ -117,3 +117,74 @@ section {
   border-bottom: 2px solid rgb(228, 228, 228);
   padding: 25px 0px;
 }
+
+/* Popular collection section */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+.product {
+  box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.315);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.popular-title {
+  color: #3a3a3a;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+}
+
+.product-img img {
+  width: 100%;
+}
+
+.product-name {
+  color: #18191f;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.product-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.product-rating p {
+  color: #787885;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 143%;
+  letter-spacing: 0.252px;
+}
+
+.fa-star.filled {
+  color: #fb8200;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+
+span {
+  color: #5e6366;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
