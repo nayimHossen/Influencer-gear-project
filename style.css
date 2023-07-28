@@ -188,3 +188,47 @@ span {
   line-height: 22px;
   letter-spacing: 0.1px;
 }
+
+.see-more {
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+  text-align: end;
+  cursor: pointer;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.feature h2 {
+  color: #0a0826;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.feature p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 20px 0px;
+}
+
+.feature button {
+  background-color: #e02c6d;
+  border: 0px;
+  padding: 10px 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
