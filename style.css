@@ -200,6 +200,8 @@ span {
   cursor: pointer;
 }
 
+/* feature section style */
+
 .feature {
   display: flex;
   align-items: center;
@@ -231,4 +233,79 @@ span {
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+/* footer section style */
+
+footer {
+  background-color: #0a0826;
+  color: white;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.social i {
+  background-color: #0a0a0a4f;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* media query style */
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0px 20px;
+  }
+  section {
+    margin: 50px 0px;
+  }
+  .header .nav ul {
+    display: none;
+  }
+  .logo {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-logos {
+    flex-wrap: wrap;
+  }
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .brand-logos {
+    width: 100%;
+  }
+
+  .banner-text h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feature {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-img img {
+    width: 100%;
+  }
+
+  .feature h2 {
+    font-size: 20px;
+  }
+  .banner-image img {
+    width: 100%;
+  }
 }
